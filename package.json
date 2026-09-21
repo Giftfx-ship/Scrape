@@ -1,0 +1,21 @@
+{
+  "name": "moviebox-api-scraper",
+  "version": "1.0.0",
+  "description": "MovieBox API scraper — paste a link, get streams. Render-ready.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  },
+  "keywords": ["moviebox", "scraper", "streaming", "api"],
+  "license": "MIT"
+}
